@@ -1,0 +1,324 @@
+{
+  "companyInfo": {
+    "name": "Code Pioneers",
+    "tagline": "Crafting Your Digital Future with Precision & Innovation",
+    "description": "We are your technical partner for powerful websites, bespoke management systems, and scalable software solutions.",
+    "email": "info@codepioneers.dev",
+    "phone": "+966 50 123 4567",
+    "whatsapp": "+966501234567",
+    "address": "Riyadh, Saudi Arabia",
+    "social": {
+      "linkedin": "https://linkedin.com/company/codepioneers",
+      "twitter": "https://twitter.com/codepioneers",
+      "github": "https://github.com/codepioneers"
+    }
+  },
+  "hero": {
+    "mainText": "Crafting Your Digital Future with Precision & Innovation",
+    "subText": "We are your technical partner for powerful websites, bespoke management systems, and scalable software solutions.",
+    "ctaButtons": [
+      { "text": "Get a Quote", "link": "/contact", "variant": "primary" },
+      { "text": "View Our Work", "link": "/portfolio", "variant": "secondary" }
+    ]
+  },
+  "companyStats": [
+    { "label": "Projects Delivered", "value": "150+", "icon": "CheckCircle" },
+    { "label": "Happy Clients", "value": "80+", "icon": "Users" },
+    { "label": "Years Experience", "value": "8+", "icon": "Award" },
+    { "label": "Team Members", "value": "25+", "icon": "Briefcase" }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "title": "Custom Website Development",
+      "icon": "Globe",
+      "shortDescription": "Stunning, responsive websites that convert visitors into customers.",
+      "longDescription": "We create custom websites tailored to your brand identity and business goals. From elegant landing pages to complex multi-page sites, we ensure your online presence stands out.",
+      "features": [
+        "Responsive Design",
+        "SEO Optimized",
+        "Fast Loading Speed",
+        "Custom CMS",
+        "Analytics Integration"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Solutions",
+      "icon": "ShoppingCart",
+      "shortDescription": "Complete online stores with payment integration and inventory management.",
+      "longDescription": "Launch your online business with our comprehensive e-commerce solutions. We build secure, scalable stores with seamless payment processing and powerful admin dashboards.",
+      "features": [
+        "Payment Gateway Integration",
+        "Product Management",
+        "Order Tracking",
+        "Customer Accounts",
+        "Marketing Tools"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Custom Software Development",
+      "icon": "Code",
+      "shortDescription": "Bespoke management systems and business automation tools.",
+      "longDescription": "Transform your business operations with custom software solutions. We develop CRM systems, inventory management, HR platforms, and more to streamline your workflows.",
+      "features": [
+        "Custom Business Logic",
+        "Database Design",
+        "API Development",
+        "Third-party Integrations",
+        "Scalable Architecture"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mobile App Development",
+      "icon": "Smartphone",
+      "shortDescription": "Native and cross-platform mobile applications for iOS and Android.",
+      "longDescription": "Extend your reach with powerful mobile applications. We build intuitive, high-performance apps that provide exceptional user experiences across all devices.",
+      "features": [
+        "iOS & Android",
+        "Cross-platform Development",
+        "Push Notifications",
+        "Offline Functionality",
+        "App Store Optimization"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "UI/UX Design",
+      "icon": "Palette",
+      "shortDescription": "Beautiful, user-centered designs that enhance engagement.",
+      "longDescription": "Create memorable digital experiences with our expert UI/UX design services. We combine aesthetics with functionality to deliver interfaces users love.",
+      "features": [
+        "User Research",
+        "Wireframing & Prototyping",
+        "Visual Design",
+        "Usability Testing",
+        "Design Systems"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Maintenance & Support",
+      "icon": "Settings",
+      "shortDescription": "Ongoing support to keep your systems running smoothly.",
+      "longDescription": "Keep your digital assets performing at their best with our comprehensive maintenance and support services. We handle updates, security, and troubleshooting.",
+      "features": [
+        "24/7 Monitoring",
+        "Regular Updates",
+        "Security Patches",
+        "Performance Optimization",
+        "Technical Support"
+      ]
+    }
+  ],
+  "pricingPackages": [
+    {
+      "id": 1,
+      "name": "Starter Website",
+      "price": 3000,
+      "currency": "SAR",
+      "isFeatured": false,
+      "description": "Perfect for launching your online presence with a professional touch.",
+      "features": [
+        "5 Responsive Pages",
+        "Contact Form Integration",
+        "Basic SEO Setup",
+        "1 Year Free Hosting",
+        "6 Months Support",
+        "Mobile Optimized"
+      ],
+      "ctaText": "Get Started"
+    },
+    {
+      "id": 2,
+      "name": "E-Commerce Store",
+      "price": 8000,
+      "currency": "SAR",
+      "isFeatured": true,
+      "description": "Everything you need to start selling online with confidence.",
+      "features": [
+        "Full Online Store",
+        "Payment Gateway Integration",
+        "Product Management Dashboard",
+        "SSL Certificate",
+        "Unlimited Products",
+        "1 Year Premium Support",
+        "Marketing Tools Included"
+      ],
+      "ctaText": "Choose Plan"
+    },
+    {
+      "id": 3,
+      "name": "Custom Software",
+      "price": 15000,
+      "currency": "SAR",
+      "isFeatured": false,
+      "description": "Tailored business solutions to automate and scale your operations.",
+      "features": [
+        "Custom System Development",
+        "Database Architecture",
+        "API Development",
+        "User Management System",
+        "Advanced Security",
+        "2 Years Support",
+        "Training Included",
+        "Dedicated Project Manager"
+      ],
+      "ctaText": "Request Quote"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "id": 1,
+      "title": "Luxury Hotel Booking Platform",
+      "category": "Websites",
+      "image": "/portfolio/hotel.jpg",
+      "shortDescription": "A sophisticated booking system for a 5-star hotel chain with real-time availability.",
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "clientIndustry": "Hospitality"
+    },
+    {
+      "id": 2,
+      "title": "E-Commerce Fashion Store",
+      "category": "E-Commerce",
+      "image": "/portfolio/fashion.jpg",
+      "shortDescription": "Modern online store with advanced filtering and seamless checkout experience.",
+      "technologies": ["Next.js", "Stripe", "MongoDB"],
+      "clientIndustry": "Retail"
+    },
+    {
+      "id": 3,
+      "title": "Healthcare Management System",
+      "category": "Systems",
+      "image": "/portfolio/healthcare.jpg",
+      "shortDescription": "Complete patient management system with appointment scheduling and records.",
+      "technologies": ["Vue.js", "Laravel", "MySQL"],
+      "clientIndustry": "Healthcare"
+    },
+    {
+      "id": 4,
+      "title": "Real Estate Marketplace",
+      "category": "Websites",
+      "image": "/portfolio/realestate.jpg",
+      "shortDescription": "Property listing platform with virtual tours and agent management.",
+      "technologies": ["React", "Express", "PostgreSQL"],
+      "clientIndustry": "Real Estate"
+    },
+    {
+      "id": 5,
+      "title": "Restaurant POS System",
+      "category": "Systems",
+      "image": "/portfolio/pos.jpg",
+      "shortDescription": "Integrated point-of-sale system with inventory and staff management.",
+      "technologies": ["Angular", "NestJS", "MongoDB"],
+      "clientIndustry": "Food & Beverage"
+    },
+    {
+      "id": 6,
+      "title": "Educational Learning Platform",
+      "category": "Websites",
+      "image": "/portfolio/education.jpg",
+      "shortDescription": "Interactive e-learning platform with course management and progress tracking.",
+      "technologies": ["React", "Django", "PostgreSQL"],
+      "clientIndustry": "Education"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Ahmed Al-Rashid",
+      "position": "CEO, Luxury Hotels Group",
+      "company": "Luxury Hotels Group",
+      "text": "Code Pioneers transformed our booking system. The new platform is intuitive, fast, and our bookings have increased by 40% in just three months.",
+      "rating": 5,
+      "avatar": "/testimonials/avatar1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Martinez",
+      "position": "Founder, Fashion Forward",
+      "company": "Fashion Forward",
+      "text": "Working with Code Pioneers was a game-changer. They delivered a stunning e-commerce site that perfectly represents our brand. Sales have never been better!",
+      "rating": 5,
+      "avatar": "/testimonials/avatar2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Mohammed Hassan",
+      "position": "Director, City Medical Center",
+      "company": "City Medical Center",
+      "text": "The healthcare management system they built has streamlined our operations completely. Patient satisfaction scores are up, and our staff loves how easy it is to use.",
+      "rating": 5,
+      "avatar": "/testimonials/avatar3.jpg"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "Omar Al-Fahad",
+      "position": "Founder & Lead Developer",
+      "bio": "10+ years of experience in full-stack development and system architecture.",
+      "avatar": "/team/omar.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/omaralfahad",
+        "github": "https://github.com/omaralfahad"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Layla Khaled",
+      "position": "UI/UX Design Director",
+      "bio": "Award-winning designer specializing in creating intuitive, beautiful interfaces.",
+      "avatar": "/team/layla.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/laylakhaled",
+        "dribbble": "https://dribbble.com/laylakhaled"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Youssef Ibrahim",
+      "position": "Senior Backend Engineer",
+      "bio": "Expert in scalable system architecture and database optimization.",
+      "avatar": "/team/youssef.jpg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/youssefibrahim",
+        "github": "https://github.com/youssefibrahim"
+      }
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": 1,
+      "title": "10 Essential Features Every E-Commerce Website Needs in 2025",
+      "excerpt": "Discover the must-have features that will make your online store stand out and drive conversions.",
+      "author": "Omar Al-Fahad",
+      "date": "2025-01-15",
+      "category": "E-Commerce",
+      "image": "/blog/ecommerce-features.jpg",
+      "readTime": "8 min read"
+    },
+    {
+      "id": 2,
+      "title": "The ROI of Custom Software: Why Off-the-Shelf Isn't Always Enough",
+      "excerpt": "Learn how custom software solutions can provide better returns for your business compared to generic alternatives.",
+      "author": "Youssef Ibrahim",
+      "date": "2025-01-10",
+      "category": "Business",
+      "image": "/blog/custom-software-roi.jpg",
+      "readTime": "6 min read"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Best Practices for SaaS Applications",
+      "excerpt": "A comprehensive guide to designing user interfaces that keep customers engaged and satisfied.",
+      "author": "Layla Khaled",
+      "date": "2025-01-05",
+      "category": "Design",
+      "image": "/blog/ux-best-practices.jpg",
+      "readTime": "10 min read"
+    }
+  ]
+}
