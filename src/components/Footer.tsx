@@ -40,7 +40,7 @@ const Footer = () => {
               <span className="text-lg font-bold">{companyInfo.name}</span>
             </div>
             <p className="text-sm text-primary-foreground/80">
-              Building innovative digital solutions for businesses worldwide.
+              نبني حلولاً رقمية مبتكرة للشركات حول العالم
             </p>
             <div className="flex gap-4">
               <a
@@ -72,26 +72,26 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold mb-4">Quick Links</h3>
+            <h3 className="font-bold mb-4 text-lg">روابط سريعة</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/services" className="text-sm hover:text-accent transition-colors">
-                  Services
+                <Link to="/services" className="text-sm hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                  الخدمات
                 </Link>
               </li>
               <li>
-                <Link to="/pricing" className="text-sm hover:text-accent transition-colors">
-                  Pricing
+                <Link to="/pricing" className="text-sm hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                  الباقات
                 </Link>
               </li>
               <li>
-                <Link to="/portfolio" className="text-sm hover:text-accent transition-colors">
-                  Portfolio
+                <Link to="/portfolio" className="text-sm hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                  الأعمال
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-sm hover:text-accent transition-colors">
-                  About Us
+                <Link to="/about" className="text-sm hover:text-accent transition-colors hover:translate-x-1 inline-block">
+                  من نحن
                 </Link>
               </li>
             </ul>
@@ -99,19 +99,19 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold mb-4">Services</h3>
+            <h3 className="font-bold mb-4 text-lg">خدماتنا</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>Web Development</li>
-              <li>E-Commerce</li>
-              <li>Custom Software</li>
-              <li>Mobile Apps</li>
-              <li>UI/UX Design</li>
+              <li>تطوير المواقع</li>
+              <li>التجارة الإلكترونية</li>
+              <li>البرمجيات المخصصة</li>
+              <li>تطبيقات الجوال</li>
+              <li>تصميم واجهات المستخدم</li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
+            <h3 className="font-bold mb-4 text-lg">تواصل معنا</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -138,7 +138,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
           <p>
-            © {currentYear} {companyInfo.name}. All rights reserved.
+            © {currentYear} {companyInfo.name}. جميع الحقوق محفوظة
           </p>
         </div>
       </div>

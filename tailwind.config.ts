@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Open Sans", "sans-serif"],
-        heading: ["Poppins", "sans-serif"],
+        sans: ["Cairo", "sans-serif"],
+        heading: ["Cairo", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
