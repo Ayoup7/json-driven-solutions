@@ -18,12 +18,12 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "Services", path: "/services" },
-    { name: "Pricing", path: "/pricing" },
-    { name: "Portfolio", path: "/portfolio" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "الرئيسية", path: "/" },
+    { name: "الخدمات", path: "/services" },
+    { name: "الباقات", path: "/pricing" },
+    { name: "الأعمال", path: "/portfolio" },
+    { name: "من نحن", path: "/about" },
+    { name: "تواصل معنا", path: "/contact" },
   ];
 
   return (
@@ -36,12 +36,12 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-primary p-2 rounded-lg group-hover:bg-accent transition-colors duration-300">
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="bg-gradient-to-br from-primary to-secondary p-2.5 rounded-xl group-hover:scale-110 transition-all duration-300 shadow-md group-hover:shadow-glow">
               <Code className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold text-foreground font-heading">
-              Code Pioneers
+            <span className="text-xl font-extrabold text-foreground font-heading bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              رواد البرمجة
             </span>
           </Link>
 
@@ -65,8 +65,8 @@ const Navbar = () => {
                 />
               </Link>
             ))}
-            <Button asChild variant="default" className="bg-accent hover:bg-accent/90">
-              <Link to="/contact">Get Started</Link>
+            <Button asChild className="bg-gradient-to-r from-accent to-secondary hover:scale-105 hover:shadow-glow transition-all duration-300 font-bold">
+              <Link to="/contact">ابدأ مشروعك</Link>
             </Button>
           </div>
 
@@ -104,9 +104,9 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button asChild className="bg-accent hover:bg-accent/90 w-full">
+              <Button asChild className="bg-gradient-to-r from-accent to-secondary hover:scale-105 w-full font-bold">
                 <Link to="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                  Get Started
+                  ابدأ مشروعك
                 </Link>
               </Button>
             </div>
